@@ -7,9 +7,59 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        Figuras Geometricas
-    </h1>
+    
+    <header>
+        <h1>
+            Figuras Geometricas
+        </h1>
+    </header>
+
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form>
+            <label for="inputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado:
+            </label>
+            <input id="inputCuadrado" type="number" />
+            <br>
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el area
+            </button>   
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula la altura de un triangulo</h2>
+        <form>
+            <label for="inputLado1Triangulo">
+                Escribe cuanto mide el primer lado del triangulo:
+            </label>
+            <input id="inputLado1Triangulo" type="number" />
+            <br>
+
+            <label for="inputLado2Triangulo">
+                Escribe cuanto mide el segundo lado del triangulo:
+            </label>
+            <input id="inputLado2Triangulo" type="number" />
+            <br>
+
+            <label for="inputBaseTriangulo">
+                Escribe cuanto mide la base del triangulo:
+            </label>
+            <input id="inputBaseTriangulo" type="number" />
+            <br>
+
+            <button type="button" onclick="validarTrianguloIsoceles()">
+                Validar Triangulo
+            </button>
+            <button type="button" onclick="calcularAlturaTriangulo()">
+                Calcular Altura
+            </button>   
+        </form>
+    </section>
 
     <script src="./figuras.js"></script>
 </body>
