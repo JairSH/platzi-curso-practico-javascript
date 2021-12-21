@@ -13,3 +13,10 @@
 - Segundo paso: implementar las formulas en JavasScript
 - Tercer paso: crear funciones
 - Cuarto paso: intergrar JS con HTML
+
+## Taller #3: media aritmetica, mediana y moda
+
+- Primer paso: definir las formulas
+- Segundo paso: implementar las formulas en JavasScript
+- Tercer paso: crear funciones
+- Cuarto paso: intergrar JS con HTML
