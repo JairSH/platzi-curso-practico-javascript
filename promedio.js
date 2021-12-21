@@ -1,9 +1,11 @@
-const lista1 = [
-  100,
-  200,
-  300,
-  400,
-  500
-]
 
-const promedio = 
+function promedio(lista) {
+  let sumaLista = 0
+
+  for (let i = 0; i < lista.length; i++) {
+    sumaLista = sumaLista + lista[i]
+  }
+
+  const promedio = sumaLista / lista.length
+  return promedio
+}
